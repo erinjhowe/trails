@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h2>Valemount</h2>
 				<?php foreach($results as $row): ?>
 					<?php if(($row->area) === 'Valemount'): ?>
-					<h3><a href="<?php echo base_url() ?>/trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
+					<h3><a href="<?php echo base_url() ?>trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
 					<?php endif; ?>
 					
 				<!-- in the url, first segment after base url - controller, second - function, third (and possibly fourth) - function perameter -->
@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h2>McBride</h2>
 				<?php foreach($results as $row): ?>
 					<?php if(($row->area) === 'McBride'): ?>
-					<h3><a href="<?php echo base_url() ?>/trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
+					<h3><a href="<?php echo base_url() ?>trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
 					<?php endif; ?>
 					
 				<!-- in the url, first segment after base url - controller, second - function, third (and possibly fourth) - function perameter -->
@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h2>Dunster</h2>
 				<?php foreach($results as $row): ?>
 					<?php if(($row->area) === 'Dunster'): ?>
-					<h3><a href="<?php echo base_url() ?>/trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
+					<h3><a href="<?php echo base_url() ?>trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
 					<?php endif; ?>
 					
 				<!-- in the url, first segment after base url - controller, second - function, third (and possibly fourth) - function perameter -->
@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h2>Mt Robson</h2>
 				<?php foreach($results as $row): ?>
 					<?php if(($row->area) === 'MtRobson'): ?>
-					<h3><a href="<?php echo base_url() ?>/trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
+					<h3><a href="<?php echo base_url() ?>trails/detail/<?php echo $row->trail_id; ?>" ><?php echo $row->trail_name; ?></a></h3>
 					<?php endif; ?>
 					
 				<!-- in the url, first segment after base url - controller, second - function, third (and possibly fourth) - function perameter -->
