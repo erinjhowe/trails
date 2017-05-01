@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="col-xs-6 col-md-3">
 		<div class="gallery-item">
 			<h4><?php echo $file_title;?></h4>
-			<a href="<?php echo base_url(); ?>/uploads/<?php echo $row->file_name;?>" data-featherlight="image"  class="thumbnail"><img title="Taken on the <?php echo $row->trail_name; ?> trail. Uploaded by: <?php echo $row->username;?> on <?php echo date("m/d/y",strtotime($time)); /*unix_to_human($time);*/ ?>"  src="<?php echo base_url(); ?>/uploads/<?php echo $row->file_name;?>"></a>
+			<a href="<?php echo base_url(); ?>uploads/<?php echo $row->file_name;?>" data-featherlight="image"  class="thumbnail"><img title="Taken on the <?php echo $row->trail_name; ?> trail. Uploaded by: <?php echo $row->username;?> on <?php echo date("m/d/y",strtotime($time)); /*unix_to_human($time);*/ ?>"  src="<?php echo base_url(); ?>uploads/<?php echo $row->file_name;?>"></a>
 			<p>Taken on the <?php echo $row->trail_name; ?> trail.<br>Uploaded by: <?php echo $row->username;?> on <?php echo date("m/d/y",strtotime($time));?></p>
 			
 		</div>

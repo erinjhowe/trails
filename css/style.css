@@ -134,7 +134,7 @@ footer {
 .welcome-container{
   width: 100%;
   height: 300px;
-  background: url(../pictures/title-background.png), url(../pictures/toms-25.jpg);
+  background: url(/pictures/title-background.png), url(/pictures/toms-25.jpg);
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
   background-position: left, center; 
